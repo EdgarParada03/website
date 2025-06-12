@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     contactBtn.addEventListener("click", showForm);
     contactLink.addEventListener("click", function (event) {
-        event.preventDefault(); // Evita el comportamiento predeterminado del enlace
+        event.preventDefault();
         showForm();
     });
     closeBtn.addEventListener("click", hideForm);
