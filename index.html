@@ -19,6 +19,8 @@
                 <a href="#home">Inicio</a>
                 <a href="#services">Servicios</a>
                 <a href="#skills">Habilidades</a>
+                <a href="#experience">Experiencia</a>
+                <a href="#projects">Proyectos</a>
                 <a href="#about">Descubre más</a>
                 <a href="#" id="contact-link">Contacto</a>
             </div>
@@ -32,7 +34,7 @@
             </div>
             <div class="hero-text">
                 <h1>Sobre mi</h1>
-                <p>Soy Edgar Parada, actual estudiante de noveno semestre del programa ingeniería de sistemas, creativo
+                <p>Soy Edgar Parada, actual estudiante de decimo semestre del programa ingeniería de sistemas, creativo
                     y apasionado por crear
                     experiencias digitales únicas</p>
                 <div class="contact-info">
@@ -144,6 +146,92 @@
         </div>
     </section>
 
+    <section id="experience" class="experience">
+        <div class="section-heading">
+            <p class="section-tag">Trayectoria</p>
+            <h2>Experiencia o trabajos realizados</h2>
+            <p>Aquí puedes mostrar tu recorrido profesional, desde pasantías hasta proyectos y logros relevantes.</p>
+        </div>
+        <div class="experience-content">
+            <div class="experience-card featured">
+                <div class="experience-period">2025 · Pasantía</div>
+                <h3>Analista de información</h3>
+                <p class="experience-company">CENS - Grupo EPM</p>
+                <p>Desarrollo de análisis de información, apoyo en procesos de organización y seguimiento de datos, y fortalecimiento de habilidades en entornos corporativos.</p>
+                <ul>
+                    <li>Apoyo en análisis y procesamiento de información</li>
+                    <li>Trabajo colaborativo con equipos técnicos</li>
+                    <li>Uso de herramientas para la gestión de datos, reportes y automatizaciones</li>
+                </ul>
+            </div>
+
+            <!--
+            <div class="experience-card">
+                <div class="experience-period">Próximamente</div>
+                <h3>Tu siguiente experiencia</h3>
+                <p>Puedes completar este espacio con otros trabajos, proyectos o logros que quieras destacar.</p>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-heading">
+            <p class="section-tag">Portafolio</p>
+            <h2>Proyectos</h2>
+            <p>Algunas de las iniciativas que he desarrollado y que puedo mostrar en este espacio.</p>
+        </div>
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-top">
+                    <span class="project-type">Aplicación web</span>
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Edu-Path</h3>
+                <p>
+                    EduPath fue una plataforma web desarrollada bajo metodología XP para fortalecer el aprendizaje en programación y gestión de proyectos en la UDES. 
+                    La solución integró un motor de gestión académica, entornos de práctica multimodal y un asistente de IA con arquitectura RAG para tutorías personalizadas.
+                </p>
+                <div class="project-tags">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>Supabase</span>
+                </div>
+            </article>
+            <article class="project-card">
+                <div class="project-top">
+                    <span class="project-type">Domotica</span>
+                    <i class="fas fa-home"></i>
+                </div>
+                <h3>Sistema embebido</h3>
+                <p>
+                    Se desarrolló un sistema embebido controlado que buscaba automatizar los distintos procesos agricolas,
+                    se implementaron sensores de humedad, temperatura y luminosidad, los cuales se conectaban a un microcontrolador que procesaba la información y activaba los sistemas de riego, ventilación y luz. 
+                </p>
+                <div class="project-tags">
+                    <span>Arduino</span>
+                    <span>Sensores</span>
+                    <span>Cables y protoboard</span>
+                </div>
+            </article>
+            <article class="project-card">
+                <div class="project-top">
+                    <span class="project-type">Gestión de proyectos</span>
+                    <i class="fas fa-clipboard-list"></i>
+                </div>
+                <h3>Gestión de proyectos</h3>
+                <p>
+                    Se realizo una planificación y seguimiento de un proyecto informatico, se implementaron estrategias para optimizar recursos y garantizar resultados eficientes, se utilizo herramientas como Microsoft Project para la gestión de proyectos.
+                </p>
+                <div class="project-tags">
+                    <span>Microsoft Project</span>
+                    <span>Charter</span>
+                    <span>EDT</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
     <section id="about" class="about">
         <div class="about-container">
             <div class="about-image">
@@ -167,6 +255,12 @@
         <span class="close-btn"><i class="fas fa-times"></i></span>
         <h2>Contáctame</h2>
         <form action="https://formspree.io/f/xrbkbggw" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
             <label for="subject">Asunto:</label>
             <input type="text" id="subject" name="subject" required>
 
@@ -187,7 +281,7 @@
                         class="fab fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/paradaedgar_03/"><i class="fab fa-instagram"></i></a>
             </div>
-            <p>&copy; 2025 Edgar Parada. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Edgar Parada. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>

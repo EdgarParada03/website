@@ -217,6 +217,139 @@ nav {
     margin-bottom: 1rem;
 }
 
+.experience,
+.projects {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, rgba(17, 34, 64, 0.98), rgba(10, 25, 47, 0.95));
+}
+
+.section-heading {
+    max-width: 900px;
+    margin: 0 auto 2.5rem;
+    text-align: center;
+}
+
+.section-tag {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.section-heading h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+}
+
+.section-heading p {
+    color: #cbd5e1;
+}
+
+.experience-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.experience-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1.8rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.experience-card.featured {
+    border-left: 4px solid var(--primary-color);
+}
+
+.experience-period {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.experience-company {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+}
+
+.experience-card ul {
+    margin-top: 0.8rem;
+    padding-left: 1.2rem;
+    color: #e2e8f0;
+}
+
+.projects-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+.project-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.project-type {
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.project-card i {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.project-card h3 {
+    color: var(--light-text);
+    margin-bottom: 0.6rem;
+}
+
+.project-card p {
+    color: #cbd5e1;
+    margin-bottom: 1rem;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.project-tags span {
+    background: rgba(255, 107, 107, 0.15);
+    color: var(--primary-color);
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+}
+
 /* Footer */
 footer {
     background-color: var(--card-bg);
